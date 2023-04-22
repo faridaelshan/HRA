@@ -1,0 +1,409 @@
+:root{
+    --text-color:#262D67;
+    --blue-bg:rgb(66, 167, 191);
+}
+body , *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90%;
+}
+
+section .container .edu{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 150px;
+}
+section .container .edu .basliq{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+section .container .edu .basliq img{
+    padding: 0;
+    margin: 0;
+}
+
+/* //////////////////////////////////////////// */
+
+
+.top-header{
+    width: 100%;
+    font-size: 10px;
+    background-color: var(--blue-bg);
+}
+.top-header p{
+    color: white;
+    margin-left: 10%;
+    padding: 5px 0;
+}
+#bar{
+    display: none;
+}
+.bar{
+    cursor: pointer;
+    display: none;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+nav a img{
+    width: 180px;
+    height: 50px;
+}
+nav .nav{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+.navbar-nav{
+    width: 100%;
+}
+.nav-item{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+}
+.nav-item a{
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav-btn{
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--blue-bg);
+}
+
+/* ///////////////////////////////////////////////// */
+
+.sec-r .veb{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-r .veb .veb-text{
+    width: 75%;
+    text-align: center;
+}
+.sec-r .veb img{
+    width: 100%;
+}
+
+
+/* ///////////////////////////////////////////////// */
+
+.sec-k .container .story{
+    display: flex;
+    height: 280px;
+}
+.sec-k .container .story .story-img{
+    width: 50%;
+}
+.sec-k .container .story .story-img img{
+    width: 380px;
+}
+.sec-k .container .story .story-text{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.sec-k .container .story .story-text .text{
+    width: 80%;
+    text-align: justify;
+    font-size: 12px;
+}
+
+
+/* ///////////////////////////////////////////////// */
+.sec-z .container{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sec-z .container .future-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec-z .container .future-img img{
+    width: 380px;
+}
+.sec-z .container .future-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sec-z .container .future-text .text{
+    width: 77%;
+}
+.sec-z .container .future-text .text p{
+    font-size: 12px;
+}
+
+
+
+/* ///////////////////////////////////////////////// */
+
+
+.sec-f .container{
+    height: 230px;
+    display: flex;
+}
+.sec-f .container .form-sec{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
+.sec-f .container .form-sec .form-text{
+    width: 50%;
+    margin-left: 20px;
+}
+.sec-f .container .form-sec .form-text h2{
+    margin-bottom: 10px;
+}
+#sual{
+    font-size: 24px;
+}
+.form-sec .form form{
+    display: flex;
+    flex-direction: column;
+}
+.form-sec .form form .input-div{
+    display: flex;
+}
+.form-sec .form form .input-div .input{
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 15px;
+}
+.form-sec .form form .input-div .input .grid{
+    margin-right: 15px;
+}
+.form-sec .form form .input-div .input .name{
+    margin-bottom: 15px;
+}
+.form-sec .form form .input-div .input .number{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+}
+.form-sec .form form .input-div .input .number input{
+    width: 110px;
+}
+.form-sec .form form .btn-div{
+    padding: 15px ;
+}
+.form-sec .form form .btn-div .muraciet{
+    color: white;
+    border: none;
+    padding: 5px 50px;
+    border-radius: 5px;
+    background-color: var(--blue-bg);
+}
+
+/* ///////////////////////////////////////////////// */
+
+footer .footer{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}
+footer .footer .footer-card{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+footer .footer .footer-card .card{
+    width: 90%;
+    height: 200px;
+}
+footer .footer .footer-card .card .contact{
+    display: flex;
+}
+footer .footer .footer-card .card .contact img{
+    width: 16px;
+    height: 16px;
+    margin: 10px 5px;
+}
+footer .footer .footer-card .card p{
+    margin: 10px 0;
+}
+footer .footer .footer-card .card .contact p a{
+    text-decoration: none;
+}
+footer .footer .footer-card .card  p a{
+    text-decoration: none;
+}
+footer .footer-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+footer .footer-text p{
+    color: var(--text-color);
+}
+
+/* //////////////////////////////////////////////////////////// */
+@media (max-width:768px) {
+    section{
+        font-size: 14px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    nav{
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        width: 100%;
+        top: 20px;
+    }
+    nav .nav{
+        position: absolute;
+        width: 100%;
+        margin-top: 220px;
+        left: -100%;
+        transition: 0.5s ease;
+    }
+    nav .nav ul li{
+        background-color: rgb(66, 166, 191);
+        display: block;
+        width: 100%;
+        border-bottom: 1px dotted #262D67;
+    }
+    nav .nav ul li a{
+        color: white;
+    }
+    nav .nav a img{
+        width: 100px;
+        height: 20px;
+    }
+    nav .bar{
+        font-size: 16px;
+        font-weight: 700;
+        display: block;
+        position: relative;
+        float: right;
+        border-radius: 50%;
+        box-shadow:  -5px -5px 5px rgba(177, 175, 175, 0.05),
+        5px 5px 5px rgba(255, 255, 255, 0.26),
+        inset -1px -1px 1px rgba(187, 183, 183, 0.2),
+        inset 1px 1px 1px rgba(0,0,0,0.3);
+        padding: 4px 7px;
+    }
+    .top-header{position: fixed;}
+    #bar:checked~.nav{
+        left: 0;
+    }
+    section .container .edu{
+        height: 50px;
+        margin: 20px 0;
+    }
+    .edu-card{
+        flex-direction: column;
+    }
+    .edu-card .card{
+        width: 100%;
+    }
+    .sec-r{
+        height:150px ;
+    }
+    .sec-r .veb{
+        width: 100%;
+        height: 100px;
+    }
+    .sec-k{
+        height: 800px;
+    }
+    .sec-k .container .story{
+        flex-direction: column;
+    }
+    .sec-k .container .story .story-img{
+        width: 100%;
+    }
+    .sec-k .container .story .story-img img{
+        width: 100%;
+    }
+    .sec-k .container .story .story-text{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .sec-z .container{
+        height: 880px;
+    }
+    .sec-z .container .future-img{
+        flex-direction: column;
+    }
+    .sec-z .container .future-img img{
+        width: 100%;
+    }
+    .sec-f .container{
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-f .container .form-sec{
+        width: 100%;
+    }
+    .sec-f .container .form-sec .form-text{
+        width: 100%;
+        text-align: justify;
+    }
+    .form-sec .form form .input-div .input{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    .form-sec .form form .input-div .input .proq{
+        margin-top: 15px;
+    }
+    footer .footer{
+        height: 350px;
+        display: grid;
+        grid-template-columns: auto ;
+        font-size: 12px;
+    }
+    footer .footer .footer-card{
+        width: 100%;
+    }
+    footer .footer .footer-card .card{
+        width: 90%;
+        height: auto;
+        margin-top: 5px;
+        line-height: 0.9;
+    }
+    footer .footer-text{
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width:992px) {
+    nav a img{
+        width: 100px;
+        height: 30px;
+    }
+}
