@@ -1,0 +1,382 @@
+:root{
+    --text-color:#262D67;
+    --blue-bg:rgb(66, 167, 191);
+}
+body , *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+    font-family: 'Poppins',sans-serif;
+}
+section{
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    width: 90%;
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+}
+section .container .basliq{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.3rem;
+}
+section .container .basliq p{
+    color: #42a7bf;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+/* //////////////////////////////////////////// */
+.top-header{
+    width: 100%;
+    background-color: var(--blue-bg);
+}
+.top-header .header-text {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-header .header-text .container p{
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 10px;
+    height: 25px;
+}
+.nav{
+    margin-left: auto;
+}
+nav .container{
+    display: flex;
+}
+nav a img{
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+nav .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 15px;
+}
+.list-dropdown{
+    position: relative;
+    display: inline-block;
+}
+.list-dropdown:hover .dropdown{
+    display: block;
+}
+.list-dropdown .dropdown{
+    position: absolute;
+    z-index: 5;
+    display: none;
+    padding-top: 10px;
+}
+.list-dropdown  ul li{
+    border: #42a7bf solid 1px;
+    width: 150px;
+    list-style: none;
+    display: block;
+    background-color: white;
+}
+.list-dropdown  ul li a:hover{
+    background-color: #42a7bf;
+    color: white;
+}
+.list-dropdown ul li a{
+    text-decoration: none;
+    padding: 0 25px;
+    line-height: 3;
+    display:block !important;
+    font-weight: 200!important;
+}
+.nav-item a{
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+.nav-item a:hover{
+    color: var(--blue-bg);
+    transition: 0.5s ease;
+}
+.nav-btn{
+    border: none;
+    padding: 5px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: var(--blue-bg);
+    border: solid 0.1rem var(--blue-bg);
+}
+.nav-btn:hover{
+    border: solid 0.1rem var(--blue-bg);
+    color: var(--blue-bg);
+    background-color: transparent;
+    transition: 0.5s ease;
+}
+#bar{
+    display: none;
+}
+.bar{
+    cursor: pointer;
+    display: none;
+}
+/* //////////////////////////////////////////// */
+.sec-img .img{
+    width: 100%;
+    height: 90vh;
+    background: url(/img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* //////////////////////////////////////////// */
+.sec-j{
+    padding: 50px 0;
+}
+.sec-j .container .front-div{
+    display: flex;
+}
+.sec-j .container .front-div .front-1{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    border-right: var(--blue-bg) solid 1px;
+}
+.sec-j .container .front-div .front-1 .front{
+    width: 90%;
+}
+.sec-j .container .front-div .front-1 .front h3{
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+.sec-j .container .front-div .front-1 .front p{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.sec-j .container .front-div .front-2 .front h3{
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+.sec-j .container .front-div .front-2 .front p{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.sec-j .container .front-div .front-2 .front{
+    width: 90%;
+}
+.sec-j .container .front-div .front-2{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    border-left: var(--blue-bg) solid 1px;
+}
+/* //////////////////////////////////////////// */
+.sec-u .container .sillabus{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+.sec-u .container .sillabus .about-sillabus{
+    width: 45%;
+}
+.sec-u .container .sillabus .about-sillabus h2{
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+.sec-u .container .sillabus .about-sillabus p{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.sec-u .container .sillabus .sillabus-list{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.sec-u .container .sillabus .sillabus-list input{
+    border: var(--blue-bg) 2px solid;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+::placeholder{
+    color: var(--text-color);
+    font-weight: 700;
+}
+/* //////////////////////////////////////////// */
+.sec-o .container{
+    display: flex;
+    justify-content: start;
+}
+.sec-o .container .kurs{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.sec-o .container .kurs .time{
+    width: 100%;
+    border-bottom: var(--blue-bg) solid 2px;
+}
+.sec-o .container .kurs .time .time-main{
+    display: flex;
+    justify-content: start;
+}
+.sec-o .container .kurs .time .time-main .time-div h2{
+font-size: 1.7rem;
+margin-right: 2rem;
+}
+.sec-o .container .kurs .next{
+    width: 100%;
+}
+.sec-o .container .kurs .next h3{
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+.sec-o .container .kurs .time h3{
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+/* //////////////////////////////////////////// */
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+footer .container p{
+    font-size: 0.8rem;
+    line-height: 3;
+    padding:10px 0 ;
+}
+footer .container .footer-line{
+    width: 100%;
+    height: 1px;
+    background-color: var(--blue-bg);
+}
+/* //////////////////////////////////////////// */
+@media (max-width:992px){
+    .nav-btn{
+        display: none;
+    }
+    header{
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        width: 100%;
+    }
+    nav{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        padding-top: 20px;
+    }
+    nav .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav .nav{
+        position: absolute;
+        width: 100%;
+        margin-top: 210px;
+        left: -110%;
+        transition: 0.5s ease;
+    }
+    
+    nav .nav ul li{
+        background-color: white;
+        display: block;
+        width: 90vw;
+        border: none;
+
+    }
+    nav .nav ul li a{
+        color: var(--text-color);
+    }
+    nav .nav a img{
+        width: 100px;
+        height: 20px;
+    }
+    nav .bar{
+        font-size: 16px;
+        font-weight: 700;
+        display: block;
+        position: relative;
+        float: right;
+        border-radius: 50%;
+        box-shadow:  -5px -5px 5px rgba(177, 175, 175, 0.05),
+        5px 5px 5px rgba(255, 255, 255, 0.26),
+        inset -1px -1px 1px rgba(187, 183, 183, 0.2),
+        inset 1px 1px 1px rgba(0,0,0,0.3);
+        padding: 4px 7px;
+    }
+    .top-header{position: fixed;}
+    #bar:checked~.nav{
+        left: 0;
+        
+    }
+    .sec-j .container .front-div{
+        flex-direction: column;
+    }
+    .sec-j .container .front-div .front-1{
+        width: 100%;
+        border-right: none;
+    }
+    .sec-j .container .front-div .front-2{
+        width: 100%;
+        border-left: none;
+    }
+    .sec-j .container .front-div .front-1 .front{
+        width: 100%;
+    }
+    .sec-j .container .front-div .front-2 .front{
+        width: 100%;
+    }
+    .sec-u .container .sillabus{
+        flex-direction: column;
+    }
+    .sec-u .container .sillabus .about-sillabus{
+        width: 100%;
+    }
+    .sec-u .container .sillabus .sillabus-list{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .sec-o .container .kurs{
+        width: 70%;
+    }
+}
